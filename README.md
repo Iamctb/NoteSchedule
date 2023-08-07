@@ -19,15 +19,15 @@
 
 (2)点击到具体课程，如:高等数学，就会按时间顺序加载记录的笔记  
 
-![image](https://github.com/Iamctb/NoteSchedule/assets/53284012/b05057f7-08fd-45b1-936d-a0b54112b987) 
-
+![1](https://github.com/Iamctb/NoteSchedule/assets/53284012/0f4d4ed6-4e2b-44e8-b57c-bec1aa3bdbf5)
+ 
 (3)搜索笔记
 
-![image](https://github.com/Iamctb/NoteSchedule/assets/53284012/34c2f517-8b46-4e08-a50f-79f62585d649) 
-
+![2](https://github.com/Iamctb/NoteSchedule/assets/53284012/abdcf1fd-a1c9-45b7-820d-78e84fcfabe3)
+ 
 (4)笔记详情 
 
-![image](https://github.com/Iamctb/NoteSchedule/assets/53284012/98fcec7e-84d0-4485-a15e-cdf36a0164ff)
+![3](https://github.com/Iamctb/NoteSchedule/assets/53284012/f69c3af5-8feb-453f-a1fa-ba7eb2e4e998)
 
 ## 使用建议：
 这个是18年开发的代码，可以参考，现在更多的是使用kotlin+compose那套技术栈了
