@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFFFFF">
+
+    <com.example.note_schedule_2.LayoutHelper.MyCardView
+        android:id="@+id/mcv"
+        android:layout_width="match_parent"
+        android:layout_height="60dp" />
+
+</FrameLayout>

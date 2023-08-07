@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".ScheduleActivity">
+
+
+    <!--顶部星期-->
+    <GridView
+        android:id="@+id/gv_Data"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:numColumns="8" />
+
+    <!--实现滑动效果-->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none">
+
+        <!--课程时间和课表内容实现横向分布-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:weightSum="8">
+
+            <!--左边的课程节数-->
+            <com.example.note_schedule_2.LayoutHelper.MyListView
+                android:id="@+id/lvNum"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:divider="@null" />
+
+            <!--右边课程内容-->
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="7">
+
+                <!--设置网格线，
+                1、设置GridView背景色，设置水平间方向间隔属性值android:horizontalSpacing和
+                   竖直方向间隔属性值android:verticalSpacing
+               2、设置GridView子项背景色，要求 子项背景色跟GridView背景色不一致。-->
+
+                <com.example.note_schedule_2.LayoutHelper.MyGridView
+                    android:id="@+id/gvContent"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#F5F5F5"
+                    android:numColumns="7"
+                    android:scrollbars="none"
+                    android:verticalSpacing="0.39dp" />
+
+                <com.example.note_schedule_2.LayoutHelper.MySchedule
+                    android:id="@+id/mySchedule"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+
+
+            </FrameLayout>
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+
+
+</LinearLayout>

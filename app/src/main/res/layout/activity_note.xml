@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NoteActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:src="@drawable/ic_back"
+            android:layout_gravity="center"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="课程详情"
+            android:textSize="35dp"
+            android:gravity="center"/>
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_marginLeft="25dp"
+            android:src="@drawable/ic_course"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:id="@+id/tv_course"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" 课程 "
+            android:textSize="30dp"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="15dp"/>
+        <EditText
+            android:id="@+id/et_className"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:textSize="28dp"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_marginLeft="25dp"
+            android:src="@drawable/ic_time"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:id="@+id/tv_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" 节数 "
+            android:textSize="30dp"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="15dp"/>
+        <EditText
+            android:id="@+id/et_classNum"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:textSize="28dp"
+            android:hint="请输入整数"
+            android:numeric="integer"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_marginLeft="25dp"
+        android:src="@drawable/ic_roon"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:id="@+id/tv_classRoom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" 教室 "
+        android:textSize="30dp"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="15dp"/>
+    <EditText
+        android:id="@+id/et_classRoom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:textSize="28dp"
+        />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_marginLeft="25dp"
+            android:src="@drawable/ic_teacher"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:id="@+id/tv_teacher"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" 老师 "
+            android:textSize="30dp"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="15dp"/>
+        <EditText
+            android:id="@+id/et_teacher"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:textSize="28dp"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_marginLeft="25dp"
+            android:src="@drawable/ic_testtime"
+            android:layout_gravity="center"/>
+t
+        <TextView
+            android:id="@+id/tv_testTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" 考试时间 "
+            android:textSize="30dp"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="15dp"/>
+        <EditText
+            android:id="@+id/et_testTime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:textSize="28dp"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_marginLeft="25dp"
+            android:src="@drawable/ic_testroom"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:id="@+id/tv_testRoom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" 考试地点 "
+            android:textSize="30dp"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="15dp"/>
+        <EditText
+            android:id="@+id/et_testRoom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:textSize="28dp"
+            />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_comfire"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:text="确定"/>
+
+</LinearLayout>

@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Note_Schedule_2</string>
+    <string name="clean">"Clean all data"</string>
+    <string name="about">About</string>
+    <string name="delete">Delete</string>
+    <string name="are_you_sure">Are you sure to delete？</string>
+    <string name="close">Close</string>
+    <string name="cancel">Cancle</string>
+    <string name="title">please input the title</string>
+    <string name="content">please input the content</string>
+    <string name="add_picture">Add picture</string>
+    <string name="exit">press again to exit</string>
+    <string name="empty">no notes yet</string>
+
+</resources>
