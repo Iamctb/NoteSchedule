@@ -13,7 +13,7 @@
 另外，如果你的暨南大学的朋友，可以从教务处下载课表到指定位置，就可以直接进行课表解析，一步导入
 
 ## 实图
-(1)课表界面
+(1)课表主界面
 
 ![image](https://github.com/Iamctb/NoteSchedule/assets/53284012/99bb45cd-146a-41ab-a468-1dd92dc42de7)
 
