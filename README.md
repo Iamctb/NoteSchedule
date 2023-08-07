@@ -29,6 +29,5 @@
 
 ![image](https://github.com/Iamctb/NoteSchedule/assets/53284012/98fcec7e-84d0-4485-a15e-cdf36a0164ff)
 
-
 ## 使用建议：
 这个是18年开发的代码，可以参考，现在更多的是使用kotlin+compose那套技术栈了
