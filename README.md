@@ -15,7 +15,7 @@
 ## 实图
 (1)课表主界面
 
-![image](https://github.com/Iamctb/NoteSchedule/assets/53284012/99bb45cd-146a-41ab-a468-1dd92dc42de7)
+![0](https://github.com/Iamctb/NoteSchedule/assets/53284012/d8653d2b-ba77-4f9f-8ed7-38a35e2be864)
 
 (2)点击到具体课程，如:高等数学，就会按时间顺序加载记录的笔记  
 
